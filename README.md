@@ -27,3 +27,5 @@ c) When Player X wins
 
 
 d) When there is a draw
+
+![iamge alt](https://github.com/Shubhi257/Advanced_Tic_Tac_Toe/blob/e3fd2bfaf914e067ab25d58c891628aa2731365d/Screenshot%202025-05-18%20002413.png)
