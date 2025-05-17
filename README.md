@@ -12,3 +12,5 @@ To customize this, you just need to modify the size and marksToWin props like th
 
 This flexibility allows you to easily change the game's complexity and rules.
 Below are some screenshots for better understanding of how the gameplay looks with different configurations:
+
+a) How the UI design will look like and the match is reset:
