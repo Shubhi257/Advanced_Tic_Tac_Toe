@@ -12,14 +12,18 @@ To customize this, you just need to modify the size and marksToWin props like th
 
 This flexibility allows you to easily change the game's complexity and rules.
 Below are some screenshots for better understanding of how the gameplay looks with different configurations:
+
 a) How the UI design will look like and the match is reset:
 
 ![image alt](https://github.com/Shubhi257/Advanced_Tic_Tac_Toe/blob/358e8ba94e272452aa5bf7c57fefb3b7739ee63a/Screenshot%202025-05-18%20002551.png)
 
-b) When Player O wins
+b) When Player O wins:
+
 ![image alt](https://github.com/Shubhi257/Advanced_Tic_Tac_Toe/blob/03cecd9b687b78f268bb24555f4673a8677cbb82/Screenshot%202025-05-18%20002536.png)
 
 c) When Player X wins
+
+![image alt](https://github.com/Shubhi257/Advanced_Tic_Tac_Toe/blob/49c9d28983de953247fe73acf53640cb1468e14f/Screenshot%202025-05-18%20004439.png)
 
 
 d) When there is a draw
