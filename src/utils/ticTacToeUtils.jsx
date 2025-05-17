@@ -4,7 +4,7 @@ export function checkWinner(board, size){
         if(symbol){
             let winner = true;
             for(let j=1; j<size; j++){
-                if(symbol != board[i][j]){
+                if(symbol !== board[i][j]){
                     winner = false;
                     break;
                 }
@@ -21,7 +21,7 @@ export function checkWinner(board, size){
         if(symbol) {
             let winner = true;
             for(let i = 1; i<size; i++) {
-                if(symbol != board[i][j]) {
+                if(symbol !== board[i][j]) {
                     winner = false;
                     break;
                 }
@@ -37,7 +37,7 @@ export function checkWinner(board, size){
     let winner = true;
     if(symbol){
         for(let i=1; i<size; i++){
-            if(symbol != board[i][i]){
+            if(symbol !== board[i][i]){
                 winner = false;
                 break;
             }
@@ -52,7 +52,7 @@ export function checkWinner(board, size){
     winner = true;
     if(symbol){
         for(let i =1; i< size; i++){
-            if(symbol != board[i][size - 1 -i]){
+            if(symbol !== board[i][size - 1 -i]){
                 winner = false;
                 break;
             }
