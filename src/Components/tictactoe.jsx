@@ -2,7 +2,7 @@ import { useState } from "react";
 import Board from "./Board";
 import { checkWinner } from "../utils/ticTacToeUtils";
 
-export default function TicTacToe({ size = 3, mToWin = 3 }){
+export default function TicTacToe({ size = 3, marksToWin = 3 }){
     const [board, setBoard ] = useState(
         Array.from({ length: size }, () =>{
             return Array(size).fill(null);
@@ -10,7 +10,7 @@ export default function TicTacToe({ size = 3, mToWin = 3 }){
     );
 
     const [turnX, setTurnX] = useState(true);
-    const winner = checkWinner(board, size);
+    const winner = checkWinner(board, size, marksToWin);
     //const status = winner?`Winner is ${winner}`: turnX ? "Player X turn" : "Player O turn";
     let status;
 if (winner === "Draw") {
